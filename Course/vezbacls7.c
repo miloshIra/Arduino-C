@@ -8,7 +8,7 @@
         int j = 0;
         int counter = 0;
 
-        while (niza[index] != '\0') {
+        for (int index = 0; niza[index] != '\0'; index ++) {
             if (niza[index] == karakater) {
                 counter ++;
                 if (counter <= 1) {
